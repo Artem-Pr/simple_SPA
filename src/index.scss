@@ -1,0 +1,40 @@
+@import '~bootstrap/scss/bootstrap';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "assets/base/buttons";
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,h2 {
+  font-style: normal;
+  font-weight: 600;
+  color: #323232;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 39px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+a {
+  color: #479C3F;
+}

@@ -1,0 +1,90 @@
+.rowWrapper {
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.colWrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.formGroup {
+  min-width: 300px;
+}
+
+.field {
+  height: 48px;
+}
+
+.fieldName {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #323232;
+}
+
+.textArea {
+  resize: none;
+  min-height: 50px;
+}
+
+.dataImg {
+  cursor: pointer;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
+
+.vectorImg {
+  right: 1px;
+}
+
+.checkboxContainer {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkboxContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #C9C9C9;
+  border-radius: 2px;
+}
+
+.checkboxContainer:hover input ~ .checkmark {
+  background-color: #f5f5f5;
+}
+
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.zIndex {
+  z-index: 10;
+}
+
+.positionFixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

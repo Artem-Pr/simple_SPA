@@ -1,0 +1,50 @@
+.sliderContainer {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.sliderWrapper {
+  height: 243px;
+}
+
+.sliderImg {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -32px;
+  cursor: pointer;
+  fill: #C9C9C9;
+  z-index: 5;
+
+  &:hover {
+    fill: #93E08C;
+  }
+}
+
+.arrowRight {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  right: 12px;
+}
+
+.arrowLeft {
+  left: 12px;
+}
+
+.paging {
+  bottom: -3px;
+  background: #C9C9C9;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+
+  &:hover {
+    background: linear-gradient(91.83deg, #93E08C -1.93%, #78CEBF 97.03%);
+  }
+}
+
+:global .slick-active .paging {
+  background: linear-gradient(91.83deg, #93E08C -1.93%, #78CEBF 97.03%);
+}

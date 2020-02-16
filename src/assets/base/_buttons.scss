@@ -1,0 +1,26 @@
+.btn {
+  border: none;
+  border-radius: 3px;
+  color: #323232;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 12px 24px;
+}
+.btn-primary {
+  background: linear-gradient(98.3deg, #93E08C -1.93%, #78CEBF 97.03%);
+  &:hover {
+    background: linear-gradient(98.3deg, #93E08C -1.93%, #6ec7b8 97.03%);
+  }
+  &:disabled {
+    border: none;
+  }
+  &:disabled:hover {
+    border: none;
+  }
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled):focus {
+    background: linear-gradient(98.3deg, #93E08C -1.93%, #78CEBF 97.03%);
+  }
+}
